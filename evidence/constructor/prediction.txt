@@ -1,0 +1,6 @@
+Recorded before the probe build on October 29 2026.
+Scenario: a merged caller expects SuccessScreen(name: ...), but the canonical screen requires userName and creatureType.
+Predicted first compiler diagnostic: Error: No named parameter with the name 'name'.
+The compiler should point to the caller and show SuccessScreen as the candidate whose arguments do not match.
+Expected fix: use SuccessScreen(userName: 'Mina Moon', creatureType: 'Black Cat').
+Naming rule: define SuccessScreen only in lib/screens/success_screen.dart, and all callers must use its required userName and creatureType parameters.

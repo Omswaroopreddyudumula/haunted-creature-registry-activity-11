@@ -1,0 +1,31 @@
+Resolving dependencies...
+Downloading packages...
+  cupertino_icons 1.0.9 (2.0.0 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.4 available)
+Got dependencies!
+5 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /Users/omswaroopudumula/Documents/Codex/2026-10-29/referenced-chatgpt-conversation-this-is-an/outputs/haunted_creature_registry/integration_test/app_test.dart
+Running Gradle task 'assembleDebug'...                          
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/Users/omswaroopudumula/.gradle/wrapper/dists/gradle-9.3.1-all/9ot9r568e8zfvvd4mn8rbu1j0/gradle-9.3.1/lib/native-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Running Gradle task 'assembleDebug'...                              7.8s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...          408ms
+00:00 +0: Android registry evidence and rotation state ownership
+EVIDENCE:01-foyer
+EVIDENCE:02-empty-validation
+EVIDENCE:03-before-rotation
+EVIDENCE:04-landscape-state-retained
+EVIDENCE:05-date-picker
+EVIDENCE:06-loading
+EVIDENCE:07-success
+EVIDENCE:08-new-lab-reset
+00:34 +1: (tearDownAll)
+00:34 +1: All tests passed!
